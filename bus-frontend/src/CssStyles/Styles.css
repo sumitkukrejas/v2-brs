@@ -1,0 +1,104 @@
+.form-group {
+    display: flex;
+    /* background-color: rgb(27, 165, 186); */
+    border-radius: 7px;
+    justify-content: center;
+    border: 1.5px solid black;
+    color: white;
+    font-weight: 500;
+    margin: 10px;
+    /* width: 80%; */
+    align-items: center;
+    background-image: linear-gradient(rgb(215, 114, 41), rgb(136, 16, 16));
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+input::placeholder{
+    text-align: center;
+}
+
+.card{
+    /* margin: 2rem;
+    height: 50%;
+    width: 25%; */
+    /* align-items: center; */
+    display: flex;
+    justify-content: center;
+    left:25%;
+    /* position: absolute; */
+    /* top:50%;
+    
+    transform: translate(-50%) translate(-50%); */
+}
+.c1 {
+    background-color: rgb(13, 68, 2);
+    /* border-radius: 10px; */
+    background-image: linear-gradient(rgb(5, 2, 68), rgb(46, 53, 192));
+    box-shadow: 11px 11px 40px rgb(3, 2, 68);
+
+}
+
+.jumbotron h1{
+    color: rgb(237, 32, 32);
+}
+.jumbotron {
+    /* background-color: rgb(73, 237, 144); */
+    /* background-image: linear-gradient(rgb(22, 234, 33), rgb(73, 237, 144)); */
+
+    background-size: cover;
+    background-position: 50% 50%;
+    background-color: #282c34;
+    /* image-rendering:pixelated; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border-radius: 10px;  */
+
+}
+
+label {
+    width: 50%;
+}
+
+#addbtn {
+    background-color: rgb(179, 28, 28);
+    color: white;
+    animation-name: addbtn;
+    animation-duration: 4s;
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.311), 0 10px 20px 0 rgba(0, 0, 0, 0.365);
+    text-decoration: none;
+}
+
+@keyframes addbtn {
+    from {
+        background-color: rgb(170, 24, 24)
+    }
+
+    to {
+        background-color: rgb(141, 77, 31);
+    }
+}
+
+#addbtn:hover {
+    background-color: rgb(115, 93, 214);
+    /* width: 150px; */
+
+}
+
+.des{
+    /* background-color: rgb(20, 73, 75); */
+    background-size: cover;
+    background-position: 50% 50%;
+}
+.dess{
+    /* background-color: black; */
+    /* border-radius: 10px; */
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.848));
+    box-shadow: 11px 11px 40px rgb(3, 2, 68);
+}
+.text-white{
+    text-decoration:none
+}
+.sno{
+    width: 10%;
+}
