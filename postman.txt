@@ -1,0 +1,33 @@
+"bus": {
+            "busId": 1,
+            "busName": "laxmi roadway",
+            "busType": "sleeper",
+            "routeFrom": "goa",
+            "routeTo": "mumbai",
+            "arrivalDate": "20-11-2022",
+            "arrivalTime": "12:20",
+            "departureDate": "20-11-2022",
+            "departureTime": "06:33",
+            "seats": 100,
+            "availableSeats": 20
+        }
+
+
+
+    {
+        "reservationId": 1,
+        "passenger": "sumit",
+        "reservationDate": "20-11-2022",
+        "reservationTime": "10:10",
+        "source": "delhi",
+        "destination": "mumbai",
+        "bus": {
+            "busId": 1,
+            }
+    }
+
+
+
+
+
+
